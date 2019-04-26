@@ -30,7 +30,7 @@ The application backend is developed in Python and the frontend is done in Web (
     ```
     python predator.py
     ```
-  <li>Open web browser, type in url: localhost:5000 or 127.0.0.1:5000, if the application is not automatically opened and run.</li>
+  <li>Open a web browser, type in url: localhost:5000 or 127.0.0.1:5000, if the application is not automatically opened and run.</li>
 </ol>
 
 <h2>Using</h2>
@@ -56,3 +56,8 @@ Then the last section is for processing recorded videos to capture any motion in
     <img src="screenshots/errorProcess.PNG" />
 </ul>
   
+<h2>Notes</h2>
+Assumes a static background/fixed mounted camera setting environment for detection (like a real CCTV mounted). Not for detecting motions with dynamic camera movements.
+
+<h2>References</h2>
+Inspired by Ardit Sulce tutorial, and improved with techniques from PyImageSearch.

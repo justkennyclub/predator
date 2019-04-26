@@ -48,11 +48,11 @@ Then the last section is for processing recorded videos to capture any motion in
   <li>Detection Analysis Graph</li>
     <img src="screenshots/graph1.PNG" />
   <li>Intermediate Frames</li>
-    <img src="screenshots/diffFrames.PNG" />
+    <img src="screenshots/diffFrames.png" />
   <li>Processing video file</li>
     <img src="screenshots/processing.PNG" />
   <li>Success/Error Notifications</li>
-    <img src="screenshots/finishProcess.PNG" />
-    <img src="screenshots/errorProcess.PNG" />
+    <img src="screenshots/finishProcess.PNG" height="50%"/>
+    <img src="screenshots/errorProcess.PNG" height="300px" />
 </ul>
   

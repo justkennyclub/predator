@@ -1,0 +1,138 @@
+body:before {
+    content: "";
+    position: fixed;
+    display: block;
+    left: 0;
+    top: 0;
+    /* text-align: center;
+    margin: 100px; */
+    background: #efefef;
+    background-image: url('bg3.jpg');
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    -webkit-filter: blur(6px);
+    -moz-filter: blur(6px);
+    -o-filter: blur(6px);
+    -ms-filter: blur(6px);
+    filter: blur(6px);
+}
+
+body {
+    text-align: center;
+    margin: 100px;
+    z-index: 0;
+
+}
+
+.content {
+    /* background: #f8f8f8c9; */
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    margin: auto;
+    width: 55%;
+    border: solid 2px lightslategray;
+    border-radius: 20px;
+}
+
+@font-face {
+    font-family: "The Murder";
+    src: url("./The Murder.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Massacre";
+    src: url("./Massacre.ttf") format('truetype');
+}
+@font-face {
+    font-family: "invisibl";
+    src: url("./invisibl.ttf") format('truetype');
+}
+@font-face {
+    font-family: "in_for_the_kill_caps";
+    src: url("./in_for_the_kill_caps.ttf") format('truetype');
+}
+.page_title {
+    font-family: 'invisibl','Massacre', 'The Murder','Press Start 2P', 'Lobster';
+    letter-spacing: 3px;
+    /* margin: 5px; */
+    margin-top: 20px;
+    font-size: 50pt;
+}
+
+h4 {
+    margin: 8px;
+}
+
+.checkboxes {
+    font-size: 13pt;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.process {
+    width: 85%;
+    margin: auto;
+    border: dashed 1px white;
+
+    background: #efefef4b;
+}
+
+.btn_webcam {
+    padding: 15px 25px;
+    text-align: center;
+    /* margin: 10px; */
+    margin-bottom: 15px;
+    font-weight: bold;
+    border: solid 3px black;
+}
+    .btn_webcam:hover {
+        cursor: pointer;
+        background-color: white;
+    }
+    .btn_webcam:disabled {
+        border: solid 3px grey;
+        background: #efefef;
+        /* pointer-events: none; */
+        cursor: not-allowed;
+    }
+
+.wb {
+    padding: 10px 25px;
+    /* border-radius: 25px; */
+}
+
+.btn_success {
+    /* background: green; */
+    background: rgb(2, 172, 2);    
+    border-radius: 15px;
+    border: solid 1px white;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    margin: 8px;
+    color: white;
+    font-size: 14pt;
+}
+    .btn_success:hover {
+        cursor: pointer;
+        background: #5cb85c;
+    }
+    .btn_success:disabled {
+        border: solid 1px lightgrey;
+        background: rgba(31, 129, 31, 0.5);
+        /* pointer-events: none; */
+        cursor: not-allowed;
+    }
+
+.btn_choose {
+    margin: 10px;
+}
+

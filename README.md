@@ -44,15 +44,15 @@ Then the last section is for processing recorded videos to capture any motion in
 <h2>Screenshots</h2>
 <ul>
   <li>Webcam feed</li>
-    <img src="screenshots/Saturday_06_April_2019_05-39-58PM.jpg" height="250px"/>
+    <img src="screenshots/Saturday_06_April_2019_05-39-58PM.jpg" height="350px"/>
   <li>Detection Analysis Graph</li>
     <img src="screenshots/graph1.PNG" />
   <li>Intermediate Frames</li>
     <img src="screenshots/diffFrames.PNG" />
   <li>Processing video file</li>
-    <img src="processing.PNG" />
+    <img src="screenshots/processing.PNG" />
   <li>Success/Error Notifications</li>
-    <img src="finishProcess.PNG" />
-    <img src="errorProcess.PNG" />
+    <img src="screenshots/finishProcess.PNG" />
+    <img src="screenshots/errorProcess.PNG" />
 </ul>
   

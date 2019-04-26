@@ -34,8 +34,8 @@ The application backend is developed in Python and the frontend is done in Web (
 </ol>
 
 <h2>Using</h2>
-<p>Now that the web app is successfully launched, we should see this interface below.</p>
-![Homescreen](screenshots/predator1.PNG)
+<p>Now that the web app is successfully launched, we should see this interface below.
+<img src="screenshots/predator1.PNG" height="250px"/></p>
 <p>The first button labeled 'Webcam' is for capturing motion using our computer's webcam. We can also choose to display
 any intermediate frames for the process of motion detecting. In the frames, room status and current time will also be displayed.
 Then the last section is for processing recorded videos to capture any motion in any . mp4 videos. After each finished operation, a corresponding Detection Analysis Graph will be generated and shown, together with a .csv file with the timing of motion detected. Each frame with any motion capture will also be saved as 'security photo' using the timestamp as the folder and file name.
@@ -44,14 +44,15 @@ Then the last section is for processing recorded videos to capture any motion in
 <h2>Screenshots</h2>
 <ul>
   <li>Webcam feed</li>
-    <img src="screenshots/Saturday_06_April_2019_05-39-58PM.jpg" />
+    <img src="screenshots/Saturday_06_April_2019_05-39-58PM.jpg" height="250px"/>
   <li>Detection Analysis Graph</li>
-  [image]
+    <img src="screenshots/graph1.PNG" />
   <li>Intermediate Frames</li>
-  [image]
+    <img src="screenshots/diffFrames.PNG" />
   <li>Processing video file</li>
-  [image]
+    <img src="processing.PNG" />
   <li>Success/Error Notifications</li>
-  [image]
+    <img src="finishProcess.PNG" />
+    <img src="errorProcess.PNG" />
 </ul>
   

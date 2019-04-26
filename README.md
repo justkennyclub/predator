@@ -34,17 +34,18 @@ The application backend is developed in Python and the frontend is done in Web (
 </ol>
 
 <h2>Using</h2>
-Now that the web app is successfully launched, we should see this interface below.
-[image]
-The first button labeled 'Webcam' is for capturing motion using our computer's webcam. We can also choose to display
+<p>Now that the web app is successfully launched, we should see this interface below.</p>
+![Homescreen](screenshots/predator1.PNG)
+<img src="screenshots/predator1.PNG" height="250px"/>
+<p>The first button labeled 'Webcam' is for capturing motion using our computer's webcam. We can also choose to display
 any intermediate frames for the process of motion detecting. In the frames, room status and current time will also be displayed.
-Then the last section is for processing recorded videos to capture any motion in any . mp4 videos. After each finished operation,
-a corresponding Detection Analysis Graph will be generated and shown, together with a .csv file with the timing of motion detected.
-Each frame with any motion capture will also be saved as 'security photo' using the timestamp as the folder and file name.
+Then the last section is for processing recorded videos to capture any motion in any . mp4 videos. After each finished operation, a corresponding Detection Analysis Graph will be generated and shown, together with a .csv file with the timing of motion detected. Each frame with any motion capture will also be saved as 'security photo' using the timestamp as the folder and file name.
+</p>
+ 
 <h2>Screenshots</h2>
 <ul>
   <li>Webcam feed</li>
-  [image]
+    <img src="screenshots/Saturday_06_April_2019_05-39-58PM.PNG" />
   <li>Detection Analysis Graph</li>
   [image]
   <li>Intermediate Frames</li>
